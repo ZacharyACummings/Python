@@ -8,9 +8,11 @@ print('1) Dawn')
 print('2) Dusk')
 answer = int(input('Answer: '))
 if answer == 1:
-    1+G,1+R
+    G = G+1
+    R = R+1
 elif answer == 2:
-    1+H,1+S
+    H = 1+H
+    S = 1+S
 else:
     print('Wrong input')
 
@@ -22,13 +24,13 @@ print('3) The Wise')
 print('4) The Bold')
 answer = int(input('Answer: '))
 if answer == 1:
-    H + 1
+    H = H + 1
 elif answer == 2:
-    S + 1
+    S = S + 1
 elif answer == 3:
-    R + 1
+    R = R + 1
 elif answer == 4:
-    G + 1
+    G = G + 1
 else:
     print('Wrong input')
 
@@ -40,22 +42,16 @@ print('3) The Piano')
 print('4) The Drums')
 answer = int(input('Answer: '))
 if answer == 1:
-    S + 1
+    S = S + 1
 elif answer == 2:
-    H + 1
+    H = H + 1
 elif answer == 3:
-    R + 1
+    R = R + 1
 elif answer == 4:
-    G + 1
+    G = G + 1
 else:
     print('Wrong input')
-
-print(G)
-print(H)
-print(R)
-print(S)
-
-
+1
 
 if G > R & G > H & G > S:
     print('You belong to the House of Gryffindor')
@@ -69,5 +65,7 @@ elif G > H & G == R:
     print('You belong to both the House of Gryffindor and House of Ravenclaw')
 elif H > G & H == S:
     print('You belong to both the House of Hufflepuff and House Slytherin')
+elif H == G == R == S:
+    print('You are the chosen one. You belong to every house.')
 else:
     print('Can not sort')
