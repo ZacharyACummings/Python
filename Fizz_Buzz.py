@@ -1,3 +1,4 @@
+#Below is the code I wrote
 num=0
 for i in range(100):
     num += 1
@@ -12,3 +13,15 @@ for i in range(100):
     else:
         print(num)
 
+#Below is the code that someone else came up with that is a little better
+"""
+for num in range(1, 101):
+  if num % 3 == 0 and num % 5 == 0:
+    print('FizzBuzz')
+  elif num % 3 == 0:
+    print('Fizz')
+  elif num % 5 == 0:
+    print('Buzz')
+  else:
+    print(num)
+"""
